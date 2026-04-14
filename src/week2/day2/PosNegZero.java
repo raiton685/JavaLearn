@@ -7,9 +7,9 @@ public class PosNegZero {
         int negative = 0;
         int zero = 0;
         for (int i = 0; i < array.length; i++) {
-            if (array[i] > 0 && array[i] != 0) {
+            if (array[i] > 0) {
                 positive++;
-            } else if (array[i] < 0 && array[i] != 0) {
+            } else if (array[i] < 0) {
                 negative++;
             } else {
                 zero++;

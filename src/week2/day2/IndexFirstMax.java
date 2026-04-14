@@ -10,7 +10,8 @@ public class IndexFirstMax {
                 max = array[i];
                 index = i;
             }
-        } System.out.println(max + " index " + index);
+        } System.out.println("Максимальное значение: "+ max + "\n" +
+                 "Индекс: " + index);
 
     }
 }
