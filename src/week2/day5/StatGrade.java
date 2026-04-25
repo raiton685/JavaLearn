@@ -16,7 +16,7 @@ public class StatGrade {
                 five++;
             } else if (array[i] == 4) {
                 four++;
-            } else {
+            } else if (array[i] == 3) {
                 three++;
             }
         }
