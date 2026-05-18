@@ -19,9 +19,9 @@ class Figure {
     int firstSide;
     int secondSide;
 
-    Figure(int side1, int side2) {
-        firstSide = side1;
-        secondSide = side2;
+    Figure(int firstSide, int secondSide) {
+        this.firstSide = firstSide;
+        this.secondSide = secondSide;
 
     }
 

@@ -27,9 +27,9 @@ class SchoolClass {
     int grade;
 
 
-    SchoolClass(String idStudent1, int grade1) {
-        idStudent = idStudent1;
-        grade = grade1;
+    SchoolClass(String idStudent, int grade) {
+        this.idStudent = idStudent;
+        this.grade = grade;
     }
 
     double averageClassGrade(int[] array) {
@@ -39,6 +39,4 @@ class SchoolClass {
         }
         return sum / array.length;
     }
-
-
 }

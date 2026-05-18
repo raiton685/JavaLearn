@@ -20,13 +20,11 @@ class BankAccount {
     double balance;
 
 
-    BankAccount(int accountNumber2, String accountOwner2, double balance2) {
-        accountNumber = accountNumber2;
-        accountOwner = accountOwner2;
-        balance = balance2;
-        if (balance2 < 0) {
-            balance = 0;
-        }
+    BankAccount(int accountNumber, String accountOwner, double balance) {
+        this.accountNumber = accountNumber;
+        this.accountOwner = accountOwner;
+        this.balance = balance;
+
     }
 
     public void putMoney(double num) {

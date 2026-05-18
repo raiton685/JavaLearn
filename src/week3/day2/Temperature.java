@@ -3,8 +3,8 @@ package week3.day2;
 public class Temperature {
     int degrees;
 
-    public Temperature(int degrees2) {
-        degrees = degrees2;
+    public Temperature(int degrees) {
+        this.degrees = degrees;
     }
 
     public boolean isNegative(Temperature temp) {

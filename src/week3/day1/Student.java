@@ -6,11 +6,11 @@ public class Student {
     int age;
     int course;
 
-    public Student(String name2, String speciality2, int age2, int course2) {
-        name = name2;
-        speciality = speciality2;
-        age = age2;
-        course = course2;
+    public Student(String name, String speciality, int age, int course) {
+        this.name = name;
+        this.speciality = speciality;
+        this.age = age;
+        this.course = course;
     }
     public void showInfo() {
         System.out.printf("Имя студента: %s \nСпециальность студента: %s \nВозраст студента: %d \n" +

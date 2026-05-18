@@ -23,9 +23,7 @@ public class Task2 {
         + "Боек молотка: " + hammerHead.quantity + "\n"
         + "Винт для молотка: " + hammerScrew.quantity);
 
-
     }
-
 }
 
 class Product {
@@ -33,9 +31,9 @@ class Product {
     int quantity;
 
 
-    Product(String name2, int quantity2) {
-        name = name2;
-        quantity = quantity2;
+    Product(String name, int quantity) {
+        this.name = name;
+        this.quantity = quantity;
     }
 
     public void craftHammer(Product product1, Product product2, Product product3, Product product4) {
@@ -48,5 +46,4 @@ class Product {
         }
         product4.quantity++;
     }
-
 }

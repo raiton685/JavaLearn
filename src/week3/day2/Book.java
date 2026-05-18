@@ -4,9 +4,9 @@ public class Book {
     String title;
     int pages;
 
-    public Book(String title1, int pages2) {
-        title = title1;
-        pages = pages2;
+    public Book(String title, int pages) {
+        this.title = title; // 1
+        this.pages = pages; // 2
     }
 
     public boolean isLongBook(Book book) {

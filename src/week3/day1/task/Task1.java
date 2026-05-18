@@ -38,12 +38,12 @@ class Car {
     int year;
     int enginePower;
 
-    public Car(String color2, String bodyType2, String condition2, int year2, int enginePower2) {
-        color = color2;
-        bodyType = bodyType2;
-        condition = condition2;
-        year = year2;
-        enginePower = enginePower2;
+    public Car(String color, String bodyType, String condition, int year, int enginePower) {
+        this.color = color;
+        this.bodyType = bodyType;
+        this.condition = condition;
+        this.year = year;
+        this.enginePower = enginePower;
     }
 
     public double carPriceCalculator() {

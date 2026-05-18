@@ -10,14 +10,13 @@ public class Task4 {
 
 }
 
-
 class Person {
     String name;
     int age;
 
-    Person(String name2, int age2) {
-        name = name2;
-        age = age2;
+    Person(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
 
     public boolean isAdult() {

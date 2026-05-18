@@ -14,9 +14,9 @@ class Student {
     int[] grade;
 
 
-    Student(String name2, int[] grade2) {
-        name = name2;
-        grade = grade2;
+    Student(String name, int[] grade) {
+        this.name = name;
+        this.grade = grade;
     }
 
     double getGrade() {
