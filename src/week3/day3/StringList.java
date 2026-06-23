@@ -1,7 +1,7 @@
 package week3.day3;
 
 import java.util.ArrayList;
-import java.util.Collection;
+
 
 public class StringList {
     static void main(String[] args) {

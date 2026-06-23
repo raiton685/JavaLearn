@@ -26,7 +26,7 @@ public class StudentList {
 class Student {
     String name;
 
-    Student(String name1) {
-        name = name1;
+    Student(String name) {
+        this.name = name;
     }
 }

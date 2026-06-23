@@ -28,9 +28,9 @@ class Book {
     String title;
     int pages;
 
-    Book(String title1, int pages1) {
-        title = title1;
-        pages = pages1;
+    Book(String title, int pages) {
+        this.title = title;
+        this.pages = pages;
     }
 
     Book findFirstObject(ArrayList<Book> books) {
