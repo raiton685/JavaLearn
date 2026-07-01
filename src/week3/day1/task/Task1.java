@@ -1,7 +1,7 @@
 package week3.day1.task;
 
 public class Task1 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Car car1 = new Car("Черный", "Универсал", "Удовлетворительное", 2008, 135);
         Car car2 = new Car("Синий", "Лифтбек", "Хорошее", 2021, 195);
         Car car3 = new Car("Бежевый металлик", "Хэтчбек", "Плохое", 2011, 115);

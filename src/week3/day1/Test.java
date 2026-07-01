@@ -1,27 +1,7 @@
 package week3.day1;
 
-public class Student {
-    String name;
-    String speciality;
-    int age;
-    int course;
-
-    public Student(String name, String speciality, int age, int course) {
-        this.name = name;
-        this.speciality = speciality;
-        this.age = age;
-        this.course = course;
-    }
-    public void showInfo() {
-        System.out.printf("Имя студента: %s \nСпециальность студента: %s \nВозраст студента: %d \n" +
-                "Курс: %d \n\n", name, speciality, age, course);
-
-    }
-}
-
-
-class Test {
-    static void main(String[] args) {
+public class Test {
+    public static void main(String[] args) {
         Student stud1 = new Student("Василий", "Сварщик", 24, 4);
         Student stud2 = new Student("Анатолий", "Фрезеровщик", 29, 2);
         Student stud3 = new Student("Иван","Инженер", 34, 5);
@@ -70,13 +50,27 @@ class Test {
         stud5.course = 3;
         */
 
-
-
-
     }
 }
 
+class Student {
+    String name;
+    String speciality;
+    int age;
+    int course;
 
+    public Student(String name, String speciality, int age, int course) {
+        this.name = name;
+        this.speciality = speciality;
+        this.age = age;
+        this.course = course;
+    }
+    public void showInfo() {
+        System.out.printf("Имя студента: %s \nСпециальность студента: %s \nВозраст студента: %d \n" +
+                "Курс: %d \n\n", name, speciality, age, course);
+
+    }
+}
 
 
 

@@ -3,7 +3,7 @@ package week3.day3.task;
 import java.util.ArrayList;
 
 public class Task4 {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         ArrayList<Integer> list1 = new ArrayList<>();
         ArrayList<Integer> list2 = new ArrayList<>();
         list1.add(1);

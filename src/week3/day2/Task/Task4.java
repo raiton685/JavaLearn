@@ -1,7 +1,7 @@
 package week3.day2.Task;
 
 public class Task4 {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Person person1 = new Person("Кирилл", 6);
         Person person2 = new Person("Максим", 17);
         Person person3 = new Person("Дмитрий", 67);

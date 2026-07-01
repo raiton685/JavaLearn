@@ -1,7 +1,7 @@
 package week3.day2.Task;
 
 public class Task2 {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Product hammerHandle = new Product("Рукоять молотка", 10);
         Product hammerHead = new Product("Боёк молотка", 11);
         Product hammerScrew = new Product("Винт для молотка", 9);

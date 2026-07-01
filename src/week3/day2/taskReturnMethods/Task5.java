@@ -1,7 +1,7 @@
 package week3.day2.taskReturnMethods;
 
 public class Task5 {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Student student = new Student("Кирилл", new int[]{4, 4, 4, 3, 3, 2});
 
         System.out.printf("Cтудент: %s \nСредний балл: %.1f ",student.name, student.getGrade());

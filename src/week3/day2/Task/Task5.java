@@ -1,7 +1,7 @@
 package week3.day2.Task;
 
 public class Task5 {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         SchoolClass stud1 = new SchoolClass("№1",3);
         SchoolClass stud2 = new SchoolClass("№2",5);
         SchoolClass stud3 = new SchoolClass("№3",4);

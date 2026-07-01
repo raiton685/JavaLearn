@@ -17,7 +17,7 @@ public class Counter {
 }
 
 class Program2 {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Counter count1 = new Counter();
         count1.increase();
         count1.increase();

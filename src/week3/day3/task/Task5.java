@@ -3,7 +3,7 @@ package week3.day3.task;
 import java.util.ArrayList;
 
 public class Task5 {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Task task1 = new Task("Закрыть неделю по учебе", 1);
         Task task2 = new Task("Закупки в магазине", 5);
         Task task3 = new Task("Приготовить еду на 2 дня", 7);

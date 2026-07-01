@@ -1,7 +1,7 @@
 package week3.day2.taskReturnMethods;
 
 public class Task4 {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Person ivan = new Person("Иван", 21);
         Person anton = new Person("Антон", 17);
         ivan.showAdult();

@@ -7,7 +7,7 @@ public class Task3 {
 
     }
 
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Task3 test = new Task3();
         boolean even = test.isEven(9);
         if (even) {

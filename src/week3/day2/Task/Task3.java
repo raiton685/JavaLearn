@@ -1,7 +1,7 @@
 package week3.day2.Task;
 
 public class Task3 {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Figure figure1 = new Figure(8, 8);
         Figure figure2 = new Figure(4, 4);
         Figure figure3 = new Figure(3, 5);

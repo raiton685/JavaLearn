@@ -13,7 +13,7 @@ public class AverageList {
     }
 
 
-    static void main(String[] args) {
+   public static void main(String[] args) {
         AverageList test = new AverageList();
         ArrayList<Integer> numbers = new ArrayList<>(15);
         numbers.add(257);

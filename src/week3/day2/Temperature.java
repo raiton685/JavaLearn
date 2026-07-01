@@ -14,7 +14,7 @@ public class Temperature {
 }
 
 class Program1 {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Temperature temp1 = new Temperature(12);
         Temperature temp2 = new Temperature(-35);
         Temperature temp3 = new Temperature(0);

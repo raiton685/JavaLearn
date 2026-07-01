@@ -2,7 +2,7 @@ package week3.day2.Task;
 
 public class Task1 {
 
-    static void main(String[] args) {
+   public static void main(String[] args) {
         BankAccount acc1 = new BankAccount(1,"Иван", 8);
         acc1.putMoney(46);
         acc1.showBalance();

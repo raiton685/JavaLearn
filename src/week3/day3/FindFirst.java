@@ -3,7 +3,7 @@ package week3.day3;
 import java.util.ArrayList;
 
 public class FindFirst {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Book book1 = new Book("Сказки", 237);
         Book book2 = new Book("История 5 класс", 178);
         Book book3 = new Book("Анатомия", 1432);

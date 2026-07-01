@@ -10,7 +10,7 @@ public class ShowAllElements {
         }
     }
 
-    static void main(String[] args) {
+   public static void main(String[] args) {
         ShowAllElements test = new ShowAllElements();
         ArrayList<String> days = new ArrayList<>(7);
         days.add("Понедельник");

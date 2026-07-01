@@ -8,7 +8,7 @@ public class Task3 {
         return   team.size() == 11;
     }
 
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Task3 test = new Task3();
         ArrayList<String> footballTeam = new ArrayList<>(11);
         footballTeam.add("№ 1 Антонов");

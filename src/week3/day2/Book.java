@@ -16,7 +16,7 @@ public class Book {
 }
 
 class Program {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Book book1 = new Book("Преступление и наказание", 672);
         Book book2 = new Book("Обломов", 448);
         Book book3 = new Book("Мертвые души", 380);

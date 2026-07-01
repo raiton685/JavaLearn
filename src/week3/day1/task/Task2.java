@@ -1,7 +1,7 @@
 package week3.day1.task;
 
 public class Task2 {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Student stud1 = new Student("Петр", new int[]{3, 5, 4, 2, 4});
         Student stud2 = new Student("Василий", new int[]{5, 5, 4, 3, 4});
         Student stud3 = new Student("Кирилл", new int[]{1, 5, 2, 2, 4});

@@ -7,7 +7,7 @@ public class Task1 {
     }
 
 
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Task1 test = new Task1();
 
         int result = test.sum(5, 6);

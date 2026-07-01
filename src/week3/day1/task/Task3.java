@@ -1,7 +1,7 @@
 package week3.day1.task;
 
 public class Task3 {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Worker worker1 = new Worker();
         Worker worker2 = new Worker();
         Worker worker3 = new Worker();

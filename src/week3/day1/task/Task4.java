@@ -1,7 +1,7 @@
 package week3.day1.task;
 
 public class Task4 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         BookRate book1 = new BookRate();
         BookRate book2 = new BookRate();
         BookRate book3 = new BookRate();

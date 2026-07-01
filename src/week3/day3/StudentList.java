@@ -3,7 +3,7 @@ package week3.day3;
 import java.util.ArrayList;
 
 public class StudentList {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Student stud1 = new Student("Иван");
         Student stud2 = new Student("Антон");
         Student stud3 = new Student("Кирилл");

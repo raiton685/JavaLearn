@@ -13,7 +13,7 @@ public class Task2 {
         return max;
     }
 
-    static void main(String[] args) {
+   public static void main(String[] args) {
         Task2 test = new Task2();
         System.out.println(test.max(new int[]{1, 4, 67, 887, 54, 334, 56, 777}));
         Task2 test2 = new Task2();

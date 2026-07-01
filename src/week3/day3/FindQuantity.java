@@ -14,7 +14,7 @@ public class FindQuantity {
         return count;
     }
 
-    static void main(String[] args) {
+   public static void main(String[] args) {
         FindQuantity test = new FindQuantity();
         ArrayList<String> words = new ArrayList<>();
         words.add("Поле");

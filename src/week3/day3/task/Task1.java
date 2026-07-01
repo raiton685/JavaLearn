@@ -3,7 +3,7 @@ package week3.day3.task;
 import java.util.ArrayList;
 
 public class Task1 {
-    static void main(String[] args) {
+   public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         list.add("Молоко");
         list.add("Овсянка");
